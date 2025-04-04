@@ -1,0 +1,11 @@
+[project]
+name = "11-vectorlmd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.2",
+    "pip>=25.0.1",
+    "pre-commit>=4.2.0",
+]
