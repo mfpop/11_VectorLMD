@@ -10,6 +10,7 @@ repos:
         args: [--fix]
   - repo: https://github.com/pytest-dev/pytest
     rev: 7.4.2
+  - repo: local
     hooks:
       - id: pytest
         name: pytest
