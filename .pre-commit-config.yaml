@@ -15,8 +15,3 @@ repos:
     rev: v1.1.398
     hooks:
       - id: pyright
-
-  - repo: https://github.com/pre-commit/mirrors-pytest
-    rev: v7.4.0
-    hooks:
-      - id: pytest
