@@ -11,18 +11,12 @@ repos:
         args: [--fix]
       - id: ruff-format
 
-
-
   - repo: https://github.com/RobertCraigie/pyright-python
     rev: v1.1.398
     hooks:
       - id: pyright
 
-  - repo: local
+  - repo: https://github.com/pre-commit/mirrors-pytest
+    rev: v7.4.0
     hooks:
-      - id: pytest-local
-        name: pytest-local
-        entry: ./.venv/bin/pytest tests
-        language: python
-        pass_filenames: false
-        always_run: true
+      - id: pytest
