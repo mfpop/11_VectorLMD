@@ -5,21 +5,13 @@ repos:
       - id: uv-lock
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.2
+    rev: v0.11.4
     hooks:
       - id: ruff
         args: [--fix]
       - id: ruff-format
 
-  - repo: https://github.com/pytest-dev/pytest
-    rev: 7.4.2
-    hooks:
-      - id: pytest
-        name: pytest
-        entry: pytest
-        language: system
-        pass_filenames: false
-        always_run: true
+
 
   - repo: https://github.com/RobertCraigie/pyright-python
     rev: v1.1.398
