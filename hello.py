@@ -1,6 +1,6 @@
 def main():
-    print("Hello from 11-vectorlmd!")
+	print('Hello from 11-vectorlmd!')
 
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+	main()
