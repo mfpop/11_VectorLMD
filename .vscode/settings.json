@@ -1,9 +1,12 @@
 {
    "cSpell.words": [
       "isort",
+      "jazzmin",
       "Pyflakes",
       "pyright",
       "pytest",
+      "taggit",
+      "userauths",
       "venv"
    ]
 }
